@@ -1,0 +1,35 @@
+.input-number {
+    padding: 10px 15px 8px 15px;
+    text-align: right;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-number:focus,
+.input-number:focus-visible {
+    outline: 0;
+    border: 2px solid #8e8d8d
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input[type='number']:placeholder-shown {
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .input-number {
+        width: 100%;
+    }
+}
