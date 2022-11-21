@@ -1,6 +1,7 @@
 .main-container {
   display: flex;
   flex-flow: wrap;
+  height: 50px
 }
 
 .partition-main {
@@ -17,6 +18,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .main-container {
+    height: auto;
+  }
+
   .partition {
     padding: 0 15px 15px 15px;
     width: 100%;

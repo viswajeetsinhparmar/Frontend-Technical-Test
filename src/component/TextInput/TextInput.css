@@ -24,7 +24,7 @@ input[type='number'] {
 }
 
 input[type='number']:placeholder-shown {
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 
